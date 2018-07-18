@@ -5257,3 +5257,12 @@ a.footer-logo-link:after, a.footer-logo-link:before {
   right: 0;
   height: 8px;
 }
+
+.moto-widget-menu .moto-widget-menu-list {
+  display: inline-block;
+  float: right;
+}
+
+.moto-container_content_55e42abb, .moto-container_content_55e42abf {
+  margin-bottom: 30px;
+}
