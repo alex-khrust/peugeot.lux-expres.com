@@ -5223,3 +5223,37 @@
 .moto-widget .moto-widget-image {
   text-align: center;
 }
+
+a.footer-logo-link {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 5px 10px 3px;
+  margin: -8px 0;
+  text-transform: uppercase;
+  font-family: "Poppins", "Roboto", sans-serif;
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+a.footer-logo-link:before {
+  top: 0;
+  border-top: 2px solid currentColor;
+  border-left: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+}
+a.footer-logo-link:after {
+  bottom: 0;
+  border-bottom: 2px solid currentColor;
+  border-left: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+}
+a.footer-logo-link:after, a.footer-logo-link:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 8px;
+}
