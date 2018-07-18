@@ -5258,9 +5258,8 @@ a.footer-logo-link:after, a.footer-logo-link:before {
   height: 8px;
 }
 
-.moto-widget-menu .moto-widget-menu-list {
-  display: inline-block;
-  float: right;
+.moto-widget-text ul li:hover {
+  color: #333;
 }
 
 .moto-container_content_55e42abb, .moto-container_content_55e42abf {
