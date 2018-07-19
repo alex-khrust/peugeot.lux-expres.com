@@ -5269,3 +5269,8 @@ a.footer-logo-link:after, a.footer-logo-link:before {
 #section-footer .moto-color5_3 {
   margin-left: 30px;
 }
+
+.moto-widget-slider .bx-caption span {
+  font-size: 60px;
+  line-height: 1.1;
+}
