@@ -5178,7 +5178,6 @@
   word-spacing: -2px;
   float: left;
   max-width: 100%;
-  margin-top: 15px;
 }
 
 .moto-text_system_1 .moto-link:before {
@@ -5286,6 +5285,10 @@ a.footer-logo-link:after, a.footer-logo-link:before {
 @media screen and (max-width: 767px) {
   .moto-widget-slider .bx-caption span {
     font-size: 15px;
+  }
+
+  .moto-text_system_1 .moto-link {
+    margin-top: 15px;
   }
 }
 
