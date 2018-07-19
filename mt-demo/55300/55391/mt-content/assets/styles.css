@@ -5267,7 +5267,8 @@ a.footer-logo-link:after, a.footer-logo-link:before {
 }
 
 #section-footer .moto-color5_3 {
-  margin-left: 30px;
+  margin: 15px;
+  display: inline-block;
 }
 
 .moto-widget-slider .bx-caption span {
@@ -5286,18 +5287,20 @@ a.footer-logo-link:after, a.footer-logo-link:before {
 
 .box-viber {
   width: 89px;
+  max-width: 89px;
   height: 89px;
-  display: flex;
+  max-height: 89px;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   background-color: #9FB31B;
   border-radius: 3px;
 }
-
 .icon-viber {
   color: white;
-  width: 50px;
-  height: 50px;
+  max-width: 50px;
+  height: 89px;
+  max-height: 89px;
 }
 
 .moto-text_system_20 {
@@ -5309,4 +5312,13 @@ a.footer-logo-link:after, a.footer-logo-link:before {
   line-height: 1.8;
   letter-spacing: 0;
   text-align: center;
+}
+
+.box-image {
+  width: 89px;
+  height: 89px;
+}
+
+.consultation {
+  padding-bottom: 20px;
 }
