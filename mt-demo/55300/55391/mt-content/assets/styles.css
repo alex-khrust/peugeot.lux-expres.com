@@ -5178,6 +5178,7 @@
   word-spacing: -2px;
   float: left;
   max-width: 100%;
+  margin-top: 15px;
 }
 
 .moto-text_system_1 .moto-link:before {
@@ -5277,6 +5278,16 @@ a.footer-logo-link:after, a.footer-logo-link:before {
   color:#fff;
   text-shadow: 0 0 15px #aac117, 0 0 20px #333;
 }
+@media screen and (max-width: 1039px) {
+  .moto-widget-slider .bx-caption span {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .moto-widget-slider .bx-caption span {
+    font-size: 15px;
+  }
+}
 
 .moto-text_system_1 a:hover {
   text-decoration: none;
@@ -5322,3 +5333,10 @@ a.footer-logo-link:after, a.footer-logo-link:before {
 .consultation {
   padding-bottom: 20px;
 }
+
+/*.moto-widget-slider li img {*/
+  /*width: 100%;*/
+  /*display: inline-block;*/
+  /*max-height: 742px;*/
+  /*object-fit: contain;*/
+/*}*/
