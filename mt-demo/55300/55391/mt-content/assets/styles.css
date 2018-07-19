@@ -5273,4 +5273,13 @@ a.footer-logo-link:after, a.footer-logo-link:before {
 .moto-widget-slider .bx-caption span {
   font-size: 60px;
   line-height: 1.1;
+  color:#fff;
+  text-shadow: 0 0 15px #aac117, 0 0 20px #333;
+}
+
+.moto-text_system_1 a:hover {
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  color: #3b3d3f;
 }
